@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-//Routs
-import { app_routing } from './app-routing.module';
+// Routs
+import { APP_ROUTING } from './app-routing.module';
 
 // Service
 
@@ -23,7 +23,7 @@ import { HomeComponent } from './components/home/home.component';
   ],
   imports: [
     BrowserModule,
-    app_routing
+    APP_ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
