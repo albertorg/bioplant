@@ -11,6 +11,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
+import { TutorialComponent } from './components/tutorial/tutorial.component';
+import { StartingComponent } from './components/start/starting/starting.component';
 
 
 @NgModule({
@@ -19,6 +21,8 @@ import { HomeComponent } from './components/home/home.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
+    TutorialComponent,
+    StartingComponent,
 
   ],
   imports: [
